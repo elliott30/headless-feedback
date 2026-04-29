@@ -1,0 +1,11 @@
+{
+  "name": "headless-ideas",
+  "version": "1.0.0",
+  "description": "Add a feedback widget to your app in 30 seconds",
+  "license": "MIT",
+  "bin": {
+    "headless-ideas": "./bin/headless-ideas.js"
+  },
+  "engines": { "node": ">=18" },
+  "files": ["bin"]
+}
