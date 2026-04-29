@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var BASE_URL = "https://headless-feedback.vercel.app";
+  var BASE_URL = "https://headless-ideas.vercel.app";
   var VOTER_KEY = "hf_voter_id";
 
   function getVoterId() {

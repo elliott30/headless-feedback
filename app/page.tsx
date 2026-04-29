@@ -1,13 +1,13 @@
 export default function Home() {
-  const installPrompt = `npx headless-feedback init`;
-  const snippet = `<script src="https://headless-feedback.vercel.app/widget.js"
+  const installPrompt = `npx headless-ideas init`;
+  const snippet = `<script src="https://headless-ideas.vercel.app/widget.js"
         data-account="YOUR_ACCOUNT_ID" async></script>
 <div id="hf-feedback"></div>`;
 
   return (
     <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 font-sans">
       <div className="max-w-2xl mx-auto px-6 py-24">
-        <h1 className="text-4xl font-bold tracking-tight mb-4">Headless Feedback</h1>
+        <h1 className="text-4xl font-bold tracking-tight mb-4">Headless Ideas</h1>
         <p className="text-xl text-zinc-500 mb-12">
           A drop-in feedback widget for web apps. Add it in 30 seconds.
         </p>
